@@ -1,0 +1,25 @@
+.feedback__options {
+  display: flex;
+  gap: 20px;
+}
+
+.feedback__btn {
+  transition: scale 250ms linear;
+  background-color: #08beb5;
+  border: inherit;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: #ffffff;
+  font-size: 20px;
+  min-width: 100px;
+}
+
+.feedback__btn::first-letter {
+  text-transform: uppercase;
+}
+
+.feedback__btn:hover,
+.feedback__btn:focus {
+  cursor: pointer;
+  scale: 1.1;
+}
